@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert TV repair services in Medchal, Hyderabad. Affordable, quick, and reliable repairs for all TV brands and models. Contact us today!">
+    <meta name="keywords" content="TV repair, Medchal, Hyderabad, LED TV repair, LCD repair, Smart TV service">
+    <meta name="author" content="Brahmaji TV Service Center">
+    <title>Brahmaji TV Service Center - Trusted TV Repairs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Brahmaji TV Service Center</h1>
+            <p>Your Trusted TV Repair Experts in Medchal, Hyderabad!</p>
+            <a href="#contact" class="cta">Contact Us Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="why-choose-us">
+            <h2>Why Choose Us?</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>✅ Expert Technicians</h3>
+                    <p>Our team is trained to handle all brands and models, ensuring your TV gets the care it deserves.</p>
+                </div>
+                <div class="feature">
+                    <h3>✅ Comprehensive Repairs</h3>
+                    <p>We repair all types of TVs, including LED, LCD, Plasma, Smart TVs, and 4K Ultra HD models.</p>
+                </div>
+                <div class="feature">
+                    <h3>✅ Quick Turnaround</h3>
+                    <p>Most repairs are completed swiftly without compromising on quality.</p>
+                </div>
+                <div class="feature">
+                    <h3>✅ Affordable Pricing</h3>
+                    <p>Top-notch services at budget-friendly rates.</p>
+                </div>
+                <div class="feature">
+                    <h3>✅ Genuine Parts</h3>
+                    <p>We use only authentic and high-quality spare parts for lasting results.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2 text="center:">Our Services Include:</h2>
+            <ul>
+                <li>🔧 Screen Repairs & Replacements</li>
+                <li>🔧 Power Issues & Circuit Board Repairs</li>
+                <li>🔧 Audio Problems & Speaker Fixes</li>
+                <li>🔧 Smart TV Software Updates</li>
+                <li>🔧 TV Mounting & Installation Services</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us Today!</h2>
+            <p>Don’t let a broken TV disrupt your entertainment. Reach out to us, and let us handle the rest.</p>
+            <p><strong>📍 Location:</strong> Medchal, Hyderabad</p>
+        
+            <a href="tel:+916031876893" class="call-button">📞 Call Us Now</a>
+        
+            <h3>Or Send A Request</h3>
+            <form action="/send-mail" method="POST" class="mail-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="Phone No">Phone No:</label>
+                <input type="phone no" id="phone no" name="phone no" placeholder="Enter your Phone Number" required>
+        
+                <label for="Address">Your Address:</label>
+                <textarea id="Address" name="Address" placeholder="Enter your Address" rows="4" required></textarea>
+        
+                <button type="submit" class="submit-button">Send Request</button>
+            </form>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Brahmaji TV Service Center. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
