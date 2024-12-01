@@ -1,2 +1,2 @@
-pip install flask
+pip install flask==2.3.3
 pip install flask_mail
